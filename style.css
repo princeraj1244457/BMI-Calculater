@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.heading {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  background-color: #999;
+  padding: 10px 20px;
+}
+
+.btn {
+  padding: 10px 40px;
+  border: 1px solid #999;
+  background-color: #e0e0e0;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: #333;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #d5d5d5;
+}
+
+.Calculater {
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+}
+
+.Calculater input {
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+
+.Calculater button {
+  font-weight: 800;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  border-color: #333;
+  cursor: pointer;
+}
+.Calculater button:hover {
+  background-color: #ffa500;
+}
+
+#result {
+  padding: 20px;
+  margin-top: 10px;
+  background-color: rgb(117, 119, 119);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: medium;
+}
+
+#guide {
+  padding: 20px;
+  margin-top: 10px;
+  background-color: rgb(117, 119, 119);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: medium;
+}
